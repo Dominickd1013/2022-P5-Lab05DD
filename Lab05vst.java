@@ -12,27 +12,34 @@ public class Lab05vst extends Applet
     {
         int width = 980;
         int height = 630;
-        int x1 = 50;
-        int y1 = 630;
+        int x1 = 10;
+        int y1 = 640;
         int x2 = 990;
-        int y2 = 600;
+        int y2 = 640;
         g.drawRect(10,10,width,height);
 
-        {
         int x = 1;
 
-            while (x = 1, <= 49, x++) {
+        while (x <= 50) {
+            x++;
 
-                int lineheight = 600 - 10;
-                // int h2 = lineheight - 10;
-
-                g.drawLine(x1, y1, x2, lineheight);
-
-                // x = 1 + 1;
-
-
-            }
+            g.drawLine(x1, y1, x2, y2);
+            y2 -= 10;
+            x1 += 10;
         }
+
+        x1 = 990;
+        y1 = 640;
+        x2 = 10;
+        y2 = 640;
+        while (x <= 50) {
+            x++;
+
+            g.drawLine(x1, y1, x2, y2);
+            y2 -= 10;
+            x1 -= 10;
+        }
+
 
     }
 }
