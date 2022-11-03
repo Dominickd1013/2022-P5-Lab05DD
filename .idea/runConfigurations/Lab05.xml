@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Lab05" type="Applet">
+    <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+    <option name="HEIGHT" value="640" />
+    <option name="MAIN_CLASS_NAME" value="Lab05vst" />
+    <module name="2022-P5-Lab05" />
+    <option name="WIDTH" value="980" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
